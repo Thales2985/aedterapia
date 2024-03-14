@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    overflow-y: auto;
+    
+}
+
+/*menu*/
+
+.content{
+    position:fixed;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eb7a4d;
+    padding-left: inherit;
+}
+
+.content .list-menu {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .list-menu li a{
+    padding: 3rem 2rem 1rem 1rem;
+    color: whitesmoke;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    transition: all 200ms ease-in;
+
+}
+
+.content .list-menu li a:hover{
+    background-color:#eb7a4d;
+    border-bottom: 4px solid rgb(5, 99, 36);
+    color: rgb(211, 233, 12);
+}
+
+.logo{
+    width: 70px;
+    height: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+/*Sobre nós*/
+
+.sobre-nos{
+    background-color: rgb(216, 223, 154);
+    width: 100%;
+    padding-bottom: 5rem;
+    padding: 80px;
+
+}
+
+.sobre-nos img{
+    width: 200px;
+    height: 200px;
+    margin-top: 8rem;
+    margin-left: 8rem;
+
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contesobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contesobre h2{
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+
+.contesobre p{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+/*produtos*/
+
+.item-produtos{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230, 253, 176);
+}
+
+.item-produtos h2{
+    font-size: 5rem;
+    color: #474646;
+    text-transform: uppercase;
+    
+}
+
+
+.item-produtos h3{
+    font-size: 1.4rem;
+    color: #474646;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    
+}
+
+
+.item-produtos h4{
+    font-size: 1.2rem;
+    color: #092686;
+    text-transform: uppercase;
+    margin-bottom: 1.4rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 297px;
+    margin-left: 4rem;
+    justify-items: center;
+    
+}
+
+.item-produtos .info-produtos .progcard img{
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    
+
+
+}
+.info-produtos{
+    width: 90%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,350px));
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.info-produtos .info{
+    background-color: #eb7a4d;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.7rem;
+}
+
+
+.info-produtos div{
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.info-produtos .preco{
+    font-size: x-large;
+    color: black;
+}
+
+.info-produtos .info .cart{
+    width: 200px;
+    height: 35px;
+    background-color:rgb(211, 233, 12);
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: black;
+    transition: all 200ms ease-in;
+
+}
+
+.info-produtos .info .cart:hover{
+    background-color:  transparent;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:small;
+
+
+}
+
+
+/*contatos*/
+
+.contatos{
+    width: 100%;
+    background-color: #eb7a4d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: whitesmoke;
+    padding-bottom: 4rem;
+
+}
+
+.contatos h3{
+    font-size: 6rem;
+    margin-bottom: 3rem;
+}
+
+.contatos-secao{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+
+.contatos-secao i{
+    margin-right: 1rem;
+
+}
+
+.contatos-secao{
+    cursor: pointer;
+    
+}
+
+.contatos-secao :hover{
+    color: rgb(211, 233, 12);
+    transition: all 200ms ease-in;
+
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(34, 104, 34, 0.774);
+    color: whitesmoke;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+@media (max-width:850px) {
+    .main{
+        display: block;
+    }
+
+    .content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 12%;
+        padding-left: 0px;
+    }
+
+    .sobre-nos img{
+        width: 388px;
+        height: auto;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width:579px) {
+    html{
+        font-size: 50%;
+    }
+}    
+
+@media (max-width:520px){
+    html {
+        font-size: 45%;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0px 40px;
+    } 
+
+    
+
+}
